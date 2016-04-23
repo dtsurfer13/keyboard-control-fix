@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "content_scripts": [ {
+        "exclude_globs":    [  ],
+        "include_globs":    [ "*" ],
+        "js":               [ "ConfluenceFix.user.js" ],
+        "matches":          [   "http://confluence.tibco.com/*",
+                                "https://confluence.tibco.com/*"
+                            ],
+        "all_frames": true,
+        "run_at": "document_start"
+    } ],
+    "converted_from_user_script": true,
+    "description":  "Prevent Confluence editor from overrideing Mac control keys",
+    "name":         "Confluence Shortcut Fixer",
+    "version":      "1"
+}
