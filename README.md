@@ -15,6 +15,10 @@ TESTING CHANGES:
 
   .. use the chrome Extensions [Reload] link when testing changes, also remember to reload your testpage
 
+TODO:
+
+.. This version disables all TinyMCE shortcuts, ideally only <ctl>-key shortcuts would be disabled and <cmd>-key shortcuts would be preserved.
+
 BACKGROUND:
 This expands the script by Marc Tamsky, for use as a Chrome extension.
 
